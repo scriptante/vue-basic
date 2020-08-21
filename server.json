@@ -1,0 +1,37 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Coletânea de memes",
+      "content": "diversos memes",
+      "img_url": "https://blog.mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png",
+      "credit": "fulano de tal",
+      "tags": [
+        "2020",
+        "memes"
+      ],
+      "created_at": "19/0//2020"
+    },
+    {
+      "id": 2,
+      "title": "Coletânea de memes",
+      "content": "diversos memes",
+      "img_url": "https://blog.mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png",
+      "credit": "fulano de tal",
+      "tags": [
+        "2020",
+        "memes"
+      ],
+      "created_at": "19/0//2020"
+    }
+  ],
+  "comments": [
+    {
+      "name": "user logado",
+      "content": "Muito bom o post",
+      "post_id": 1,
+      "created_at": "2020-08-21T12:56:37.309Z",
+      "id": 1
+    }
+  ]
+}

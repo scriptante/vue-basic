@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vue HTML Template</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="vue-dev.js" defer></script>
+  <script src="Posts.js" defer></script>
+  <script src="VueData.js" defer></script>
+</head>
+<body>
+  <div id="app">
+    <article>
+      <Posts
+        v-for="post in posts"
+        v-bind:key="post.id"
+        v-bind:post="post"
+      ></Posts> 
+    </article>    
+    <section>
+      <Sponsors 
+        v-for="sponsor in sponsors"
+        v-bind:key="sponsor.id"
+        v-bind:sponsor="sponsor"
+      ></Sponsors>
+    </section>
+  </div>
+</body>
+</html>

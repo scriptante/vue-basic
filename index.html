@@ -4,7 +4,9 @@
   <title>Vue HTML Template</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <script src="vue-dev.js" defer></script>
+  <script src="Sponsors.js" defer></script>
   <script src="Posts.js" defer></script>
+  
   <script src="VueData.js" defer></script>
 </head>
 <body>
@@ -17,10 +19,7 @@
       ></Posts> 
     </article>    
     <section>
-      <Sponsors 
-        v-for="sponsor in sponsors"
-        v-bind:key="sponsor.id"
-        v-bind:sponsor="sponsor"
+      <Sponsors        
       ></Sponsors>
     </section>
   </div>
